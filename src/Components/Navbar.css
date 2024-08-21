@@ -1,0 +1,25 @@
+/* Navbar.css */
+
+.navbar {
+
+  background-color: #e26a1a;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.nav-link { 
+  color: white; 
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease; 
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  background-color:white;
+}
+
+.nav-link:active {
+  background-color:wheat; /* Adds a darker shade when the link is active */
+}

@@ -1,0 +1,28 @@
+.movie-container {
+  display: flex;
+  align-items: start;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.votes-container {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.vote-count {
+  font-size: 1.25rem;
+  margin: 5px 0;
+}
+
+.card-img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin-right: 1rem;
+  margin-top: 25px;
+}
+
+.card {
+  border: none; }
